@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="">
+      <fieldset>
+        <legend>Create an Account</legend>
+        <label>
+          <span>First Name</span>
+          <input type="text" name="first">
+        </label>
+        <label>
+          <span>Last Name</span>
+          <input type="text" name="last">
+        </label>
+        <label>
+          <span>E-mail</span>
+          <input type="email" name="email">
+          <p>We'll never share your email anyone else.</p>
+        </label>
+        <label>
+          <input type="radio" name="sex">
+          <span>Male</span>
+        </label>
+        <label>
+          <input type="radio" name="sex">
+          <span>Female</span>
+          <label>
+            <span>Country</span>
+            <select name="" id="">
+            <option value="">Select</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+            <option value="">Canada</option>
+            <option value="">Australia</option>
+          </select>
+          </label>
+          <label>
+            <span>City</span>
+            <input type="text" name="city">
+          </label>
+        </label>
+        <button>Sign Up</button>
+        <p>By clicking the 'Sign Up' button, you confirm that you accept our
+          <a href="">Terms of Use</a>
+          and
+          <a href="">Privacy Polic</a>
+        </p>
+        <br>
+        <span>Have an account?</span>
+        <a href="">Log in</a>
+      </fieldset>
+      <fieldset>
+        <legend>Profile</legend>
+        <img src="" alt="">
+        <label>
+          <input type="file">
+          <input type="text">
+          <img src="" alt="">
+          <span>Up to 1 MB (300x300 px)</span>
+        </label>
+        <button>
+          <img src="" alt="">
+        </button>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name">
+        </label>
+        <label>
+          <span>E-mail</span>
+          <input type="email" name="email">
+        </label>
+        <label>
+          <span>Country</span>
+          <select name="" id="">
+            <option value="">Select</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+            <option value="">Canada</option>
+            <option value="">Australia</option>
+          </select>
+        </label>
+        <label>
+          <span>City</span>
+          <input type="text">
+        </label>
+        <label>
+          <span>Zip Code</span>
+          <input type="number" name="zip_code">
+        </label>
+        <label>
+          <span>Phone Number</span>
+          <input type="tel" name="phone_number">
+        </label>
+        <button>Update</button>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>
