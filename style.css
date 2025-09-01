@@ -22,11 +22,17 @@ form {
     display: block;
     margin: auto;
   }
+
+  /* @media (max-width: 590px) {
+max-width: 590px
+  } */
+
+
 }
 
 fieldset {
   border: none;
-  width: 570px;
+  max-width: 570px;
   height: 590px;
   padding: 0 34px;
   background: #fff;
@@ -93,7 +99,7 @@ fieldset {
     content: url(images/select_icons.svg);
     position: absolute;
     top: 44%;
-    left: 226px;
+    left: 91%;
     background: #fff;
     pointer-events: none;
   }
@@ -338,7 +344,7 @@ fieldset {
     content: url(images/select_icons.svg);
     position: absolute;
     top: 53%;
-    left: 223px;
+    left: 91%;
     background: #fff;
     pointer-events: none;
   }
