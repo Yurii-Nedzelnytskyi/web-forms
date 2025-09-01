@@ -12,124 +12,119 @@
 </head>
 
 <body>
-  <form action="">
-    <div class="fieldset_one">
-      <fieldset>
-        <h2>Create an Account</h2>
-        <div class="names">
-          <label>
-            <span>First Name</span>
-            <input type="text" name="first" required>
-          </label>
-
-          <label>
-            <span>Last Name</span>
-            <input type="text" name="last" required>
-          </label>
-        </div>
-
-        <label>
-          <span>E-mail</span>
-          <input type="email" name="email" required>
-          <p>We'll never share your email anyone else.</p>
-        </label>
-
-        <div class="radio">
-          <label>
-            <input type="radio" name="sex" required>
-            <span>Male</span>
-          </label>
-          <label>
-            <input type="radio" name="sex" required>
-            <span>Female</span>
-          </label>
-        </div>
-
-        <div class="place">
-
-          <label>
-            <span>Country</span>
-            <select name="" id="" required>
-              <option value="" selected disabled hidden>Select</option>
-              <option value="">USA</option>
-              <option value="">UK</option>
-              <option value="">Canada</option>
-              <option value="">Australia</option>
-            </select>
-          </label>
-
-          <label>
-            <span>City</span>
-            <input type="text" name="city" required>
-          </label>
-
-        </div>
-        
-        <button>Sign Up</button>
-        <p>By clicking the 'Sign Up' button, you confirm that you accept our <br>
-          <a href="">Terms of Use</a>
-          and
-          <a href="">Privacy Polic</a>
-        </p>
-        <div class="line"></div>
-        <p> Have an account?
-          <a href="">Log in</a>
-        </p>
-      </fieldset>
-    </div>
-
-    <div class="fieldset_two">
-      <fieldset>
-        <h2>Profile</h2>
-        <div class="profile_photo">
-          <img src="images/user's_photo.png" alt="user's photo">
-          <label id="photo">
-            <input type="file" required>
-            <input type="text" tabindex="-1">
-            <img src="images/photo.svg" alt="photo">
-            <span>Up to 1 MB (300x300 px)</span>
-          </label>
-          <button>
-            <img src="images/trash_can.svg" alt="trash_can">
-          </button>
-        </div>
-
-        <div class="inputs">
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" required>
-          </label>
+  <div class="container">
+    <form action="">
+      <div class="fieldset_one">
+        <fieldset>
+          <h2>Create an Account</h2>
+          <div class="names">
+            <label>
+              <span>First Name</span>
+              <input type="text" name="first" required>
+            </label>
+            <label>
+              <span>Last Name</span>
+              <input type="text" name="last" required>
+            </label>
+          </div>
           <label>
             <span>E-mail</span>
             <input type="email" name="email" required>
+            <p>We'll never share your email anyone else.</p>
           </label>
-          <label>
-            <span>Country</span>
-            <select name="" required>
-              <option value="" selected disabled hidden>Select</option>
-              <option value="">USA</option>
-              <option value="">UK</option>
-              <option value="">Canada</option>
-              <option value="">Australia</option>
-            </select>
-          </label>
-          <label>
-            <span>City</span>
-            <input type="text" required>
-          </label>
-          <label>
-            <span>Zip Code</span>
-            <input type="number" name="zip_code" required>
-          </label>
-          <label>
-            <span>Phone Number</span>
-            <input type="tel" name="phone_number" required>
-          </label>
-        </div>
-        <button>Update</button>
-      </fieldset>
-    </div>
-  </form>
+          <div class="radio">
+            <label>
+              <input type="radio" name="sex" required>
+              <span>Male</span>
+            </label>
+            <label>
+              <input type="radio" name="sex" required>
+              <span>Female</span>
+            </label>
+          </div>
+          <div class="place">
+            <label>
+              <span>Country</span>
+              <select name="" id="" required>
+                <option value="" selected disabled hidden>Select</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
+                <option value="">Canada</option>
+                <option value="">Australia</option>
+              </select>
+            </label>
+            <label>
+              <span>City</span>
+              <input type="text" name="city" required>
+            </label>
+          </div>
+          <button>Sign Up</button>
+          <p>By clicking the 'Sign Up' button, you confirm that you accept our <br>
+            <a href="">Terms of Use</a>
+            and
+            <a href="">Privacy Polic</a>
+          </p>
+          <div class="line"></div>
+          <p> Have an account?
+            <a href="">Log in</a>
+          </p>
+        </fieldset>
+      </div>
+    </form>
+    
+    <form action="">
+      <div class="fieldset_two">
+        <fieldset>
+          <h2>Profile</h2>
+          <div class="profile_photo">
+            <img src="images/user's_photo.png" alt="user's photo">
+            <label id="photo">
+              <input type="file" required>
+              <input type="text" tabindex="-1">
+              <img src="images/photo.svg" alt="photo">
+              <span>Up to 1 MB (300x300 px)</span>
+            </label>
+            <button>
+              <img src="images/trash_can.svg" alt="trash_can">
+            </button>
+          </div>
+          <div class="inputs">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required>
+            </label>
+            <label>
+              <span>E-mail</span>
+              <input type="email" name="email" required>
+            </label>
+            <label>
+              <span>Country</span>
+              <select name="" required>
+                <option value="" selected disabled hidden>Select</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
+                <option value="">Canada</option>
+                <option value="">Australia</option>
+              </select>
+            </label>
+            <label>
+              <span>City</span>
+              <input type="text" required>
+            </label>
+            <label>
+              <span>Zip Code</span>
+              <input type="number" name="zip_code" required>
+            </label>
+            <label>
+              <span>Phone Number</span>
+              <input type="tel" name="phone_number" required>
+            </label>
+          </div>
+          <button>Update</button>
+        </fieldset>
+      </div>
+    </form>
+  </div>
 </body>
 
 </html>
